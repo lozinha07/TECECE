@@ -1,0 +1,149 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 10%;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+
+}
+header:hover {
+    border: 2px solid #ffffff; /* Adiciona uma borda branca */
+    transition: all 0.3s ease; /* Transição suave ao passar o mouse */
+}
+.logo img{
+    max-width: 120px;
+    height: auto;
+}
+
+.ul_navmenu {
+    display: flex;
+    gap: 10px;
+}
+
+.ul_navmenu a {
+    text-decoration: none;
+}
+
+.navmenu{
+    display: flex;
+}
+.navmenu a{
+    color: #ffffff;
+    font-size: 16px;
+    text-transform: capitalize;
+    padding: 10px 20px;
+    font-weight: 400;
+    transition: all .42s ease;
+}
+.nav-icon{
+    display: flex;
+    align-items: center;
+}
+.nav-icon i{
+    margin-right: 20px;
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 400;
+    transition: all .42 ease;
+}
+.nav-icon i:hover{
+    transform: scale(1.1);
+    color: rgb(116, 151, 218);
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #000000;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #000000;
+    color: #000000;
+    padding: 20px;
+    text-align: center;
+}
+.main_video {
+    width: 100%;
+}
+img{
+    right: 50%;
+    width: 300px;
+    height: 250px;
+}
+a:hover{
+    color: #7497da;
+    transition: 0.8s;
+}
+#menu-icon{
+    font-size: 35px;
+    z-index: 10001;
+    transition: 0.8s;
+    color: #ffffff;
+    cursor: pointer;
+}
+section{
+    padding: 20px 40px;
+}
+.main-text h5{
+    color: #ffffff;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 500%;
+
+}
+
+.center-text {
+    text-align: center;
+    font-size: 17px;
+}
+
+.destaques {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; 
+}
+
+.destaques img {
+    width: 32%;
+    height: auto;
+}
+header.hidden {
+    transform: translateY(-100%); /* Move o header para fora da tela */
+    transition: transform 0.3s ease; /* Transição suave */
+}
